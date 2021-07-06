@@ -10,7 +10,10 @@
 * Then we will commit the changes.
 * Now we want to move our data to a remote storage, in our case it is my persoal google drive. So I will create one folder in my google drive take the location of the folder and then add that location as remote location to our dvc file, by that dvc will know the remote location of our data. the command to that is as follows:
     > dvc remote add -d storage gdrive://(location of the drive)
+ 
     > git commit .dvc/config -m "Configuring the remote storage" #commiting the changes
+
+
     > dvc push #pushing the data from local to the remmote storage.
 * Now if we will check our drive then the data will appear. Link to the drive: 
    >  https://drive.google.com/drive/folders/1385eoDIMKKbJ5e3gH8d4ERA7OnxrlmVx?usp=sharing
