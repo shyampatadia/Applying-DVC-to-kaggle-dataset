@@ -1,6 +1,5 @@
 ### task_railofy
-> Applying DVC to the Huge stock market Kaggle Dataset.
-> https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs
+> Applying DVC to the [Huge stock market Kaggle Dataset](https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs)
 
 #### Process: 
 * Downloading the kaggle dataset on your local machine. (Also we can use dvc get command to get the data from the web if you have hosted it somewhere on github or any other place)
